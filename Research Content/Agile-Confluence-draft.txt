@@ -1,0 +1,27 @@
+AGILE TOOLS - Confluence
+
+Confluence is a robust collaboration tool that allows for sharing of information across a team or organization.  It’s a content management tool that integrates seamlessly with Jira, both being made by Atlassian, and provides a single source for all a team’s knowledge.  Pages can be created an organized for how-tos, meeting notes with assignable action items, reporting dashboards, and team workspaces.
+
+
+<<pageSample image>> 
+https://www.atlassian.com/blog/confluence/best-confluence-pages-for-devops-culture
+
+
+Pages are easy to build out, and have a wide array of formatting options. Also, Confluence offers a plethora of template options to get page created started easily.  Versioning history is also included and specific details of changes made and by whom allow for git-like comparisons. Searching through workspaces is easy with full-text searching or by Page title. Team members can leave comments on pages, and editing permissions can be customized.
+
+Creating real-time dashboards to track project progress is easy to setup, and developers can update their work on interactive Scrum and Kanban boards. Project managers and team leaders can get information at a glance, creating project plans and milestones.  
+
+
+<<ConfReportSample image>> http://lightmanyfires.com/dont-repeat-yourself-confluence-include-page-macro/
+
+
+Like Jira, there are many add-ons that make integrating Confluence with tools you may already be using simple, such as Office, Dropbox, Slack, and many others.
+
+Basic Info:
+Pricing: Like Jira, Confluence has a free version for up to 10 users that offers most of the Confluence features.  The Standard package is $5/mo for each user for companies from 11-5000 users.
+
+Type: Agile Workflow, Project Management, Build Deployment
+
+Sectors: Primarily Software development and IT, but seeing expansion into Marketing and HR
+
+Mobile: Yes.

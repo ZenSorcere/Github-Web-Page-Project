@@ -1,0 +1,21 @@
+AGILE TOOLS: JIRA
+
+Atlassian offers a number of programs and tools that are widely used in the Tech Industry, with Jira being the most notable.  Jira can be used to organize projects, track issues and tasks, monitor and customize workflows, among other things, which makes it very popular for Agile-based teams.
+
+You can create issues which can be tasks to do, bugs to be fixed, or features to develop. Issues can be linked to each other and have labels for easy tracking.  These are frequently tracked on a Board, which can be either Scrum or Kanban style, and their progress tracked through from inception to deployment. Jira also provides excellent reporting options.
+
+<<Board Image>> https://www.atlassian.com/software/jira
+<<dashboard image>> https://www.idalko.com/jira-dashboards/
+
+
+What also makes Jira incredibly useful are it’s cornucopia of integration options. There are over  thousand optional integrations for various other tools such as Github for branch management, Slack for communication, Jenkins-CI for build deployments, and many others covering a wide swath of Test Management,  Project Management and build monitoring.  
+
+
+Basic Info:
+Pricing: Jira has a free version for up to 10 users that offers most of the jira features.  The Standard package is $7/mo for each user for companies from 11-5000 users.
+
+Type: Agile Workflow, Project Management, Build Deployment
+
+Sectors: Software development, IT, Operations, Marketing, etc.  
+
+Mobile: Yes.
