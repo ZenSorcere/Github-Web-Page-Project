@@ -1,0 +1,18 @@
+Eclipse is an IDE developed and mainly based in Java, but can be used to develop in other popular languages like c/c++, Javascript, 
+PHP and Ruby. It was developed by the Eclipse Foundation released in 2001. 
+
+At its base Eclipse supports an incremental compiler, only recompiling portions of the program that have been modified instead of 
+recompiling the whole thing. It also includes a model of the program contents, allowing for detailed information to be viewed. 
+Eclipse also boasts several other tools to assist in charting, reporting, and testing.
+
+Eclipse is open source, thanks to which has a large marketplace of extensions and plugins to meet your needs whether it be a code 
+checker or simple skin for you editor shell. It supports Windows, Linux, and the Mac OS X.
+
+Basic Info:
+Pricing: Free
+
+Type: Integrated Development Environment
+
+Sectors: Software Development, IT, Web Development
+
+Mobile: No
