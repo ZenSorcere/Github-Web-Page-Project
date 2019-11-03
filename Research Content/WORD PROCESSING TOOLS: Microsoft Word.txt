@@ -1,0 +1,24 @@
+WORD PROCESSING TOOLS: Microsoft Word
+
+Word processing software is used to manipulate text documents. The most common word processing tool nowadays is Microsoft Word. It’s part of the Microsoft Office line and wildly used around the world. Microsoft Word is also available as subscription service Microsoft Word 365 
+Some of the functions of Microsoft Word include:
+Creating, editing, saving and printing documents.
+Copying, pasting, moving and deleting text within a document.
+Formatting text, changing font type, bolding, underlining or italicizing.
+Creating and editing tables.
+Inserting elements from other software, such as illustrations or photographs.
+Correcting spelling and grammar.
+For the teamwork, Microsoft Word offers simplified sharing futures and collaboration options. Team members are able to comment in the sharing document right next to a discussion topic, read and edit the document as a team and stay on top of changes to the text, layout, and formatting, editing permissions can be customized and file & doc permission management lets see what team member was working on them easily.
+
+https://products.office.com/en-us/word
+https://www.digitalunite.com/technology-guides/microsoft-office/microsoft-word
+
+
+Basic Info:
+Pricing: Vary. It can be purchased individually or as part of the Microsoft Office line, priced for the bundle. Microsoft Office line has  different prices for the Home, Business, Student, Professional use, also available as an online subscription Office 365
+ 
+Type: Productivity, Project Management, Education
+
+Sectors: Legal, Education, Finance, Software development, IT, Operations, Marketing, etc.  
+
+Mobile: Yes.
