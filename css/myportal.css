@@ -30,6 +30,13 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+   float:left;
+   width:45%;
+   margin: .5em;
+   display:inline-block;
+} 
+
 footer {
     clear: both;
     text-align: center;
