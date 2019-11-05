@@ -15,8 +15,19 @@ p {
     margin-left:1em;
 }
 
-h1,h2,h3,h4 {
+h1 {
     margin-left:1em;
+    
+    
+}
+title,h2,h3,h4,li {
+    margin-left:1em;
+    
+    
+}
+h4 {
+    margin-bottom: auto;
+
 }
 
 a {
