@@ -1,0 +1,25 @@
+Microsoft Visual Studio is an IDE by Microsoft released in 2003. It has several built in languages including C/C++/C#, Javascript, 
+HTML and CSS. Visual Studio also supports other languages like Python, Ruby and Node.js via plugins. 
+
+Features in Visual Studio include IntelliSense, which is a tool that provides code suggestions if you get stuck on your project. 
+CodeLens lets you see referential data on your code to help track changes made, the impact of changes made, and who made those 
+changes as well as whether those changes have been tested. Visual Studio lets you pause code mid-execution to help identify and fix 
+any bugs, as well as let you test your fixes/changes immediately mid typing. 
+
+Visual Studio has several add-on integrations with other applications and resources such as Microsoft’s Azure and Github, letting you 
+easily communicate and collaborate with team members. There are also several pre-packaged component bundles available that were made 
+for specific tasks like web development or mobile/gaming development. 
+
+Basic Info:
+Pricing:
+Community Edition - Free
+Professional Edition lite - $45 monthly
+Professional Edition full - $1199 Yearly / $799 renewal
+Enterprise Edition lite - $250 monthly
+Enterprise Edition full - $5999 Yearly / $2569 renewal
+
+Type: Integrated Development Environment
+
+Sectors: Software Development, IT, Web Development
+
+Mobile: No
