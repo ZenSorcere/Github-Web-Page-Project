@@ -30,6 +30,10 @@ a:hover {
     text-decoration: underline;
 }
 
+figure > img: click {
+    width: 70%;
+}
+
 img {
    
    width:45%;
