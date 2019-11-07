@@ -1,36 +1,57 @@
 /* This list of CSS rules comes from the W3Schools website */
 
 /* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333; 
+ul.topnav {
+    background-color: #000080; 
     overflow: hidden;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
+/*
+ul.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width:15%;
     display: block;
+}
+*/
+ul.topnav ul{
+    width: 90%;
+}
+ul.topnav li{
+    float: left;
+}
+ul.topnav li a {
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.3s;
     font-size: 17px;
 }
 
+
 /* Change the color of links on hover */
-.topnav a:hover {
+ul.topnav li:hover {
     background-color: #ddd;
     color: black;
 }
 
 /* Add an active class to highlight the current page */
-.active {
+ul.active {
     background-color: #4CAF50;
     color: #fff; /* Red Green Blue */
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+ul.topnav .icon {
     display: none;
 }
 
@@ -38,25 +59,32 @@
 /* RESPONSIVE RULES BEGIN HERE */
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+@media screen and (max-width: 1000px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
     float: right;
-    display: block;
+    display: inline-block;
   }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
+@media screen and (max-width:1000px) {
+ 
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  .topnav.responsive a {
+    }
+
+  ul.topnav.responsive li {
     float: none;
+    display: inline;
+      }
+
+  ul.topnav.responsive li a {
     display: block;
     text-align: left;
-  }
+    }
+
 }
