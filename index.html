@@ -9,24 +9,24 @@
   <link rel="stylesheet" href="css/nav.css" />
  </head>
  <body>
-   <div class="wrapper">
-   <header>
+     <header>
      <h1>Tools used in Tech Environment</h1>
-      <nav class="topnav" id="myTopnav">
-       
-       <a href="#eclipse">Eclipse</a>
-       <a href="#jira">Jira</a>
-       <a href="#confluence">Confluence</a>
-       <a href="#word processing">Word Processing</a>
-       <a href="#slack">Slack</a>
-       <a href="#whatsup">WhatsApp</a>
-       <a href="#microsoftoutlook">Microsoft Outlook</a>
-       
-       
-       
-       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      <nav>
+       <ul class="topnav" id="myTopnav">
+           <li><a href="#jira">Jira</a></li>
+           <li><a href="#confluence">Confluence</a></li>
+           <li><a href="#word processing">MS Word</a></li>
+           <li><a href="#slack">Slack</a></li>
+           <li><a href="#whatsup">WhatsApp</a></li>
+           <li><a href="#microsoftoutlook">MS Outlook</a></li>
+           <li><a href="#eclipse">Eclpise</a></li>
+           <li><a href="#microsoftvisual">MS Visual</a></li>
+           <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+       </ul>
      </nav>
     </header> 
+   <div class="wrapper">
+   
      
        <article>
         <h2 id="intro">Intro</h2>
@@ -34,17 +34,6 @@
             <br>These tools streamline the effort of coding and make collaboration among teams much more efficient.
             <br>As developers we need to communicate with those on our team and cross functional teams as well.
             <br>Tools in tech makes this easier and allows us to make sure the technology we are building works and is meeting the standards of all those involved. </p>
-           
-        <h2 id="eclipse">Eclipse</h2>
-            <p>Eclipse is an IDE developed and mainly based in Java, but can be used to develop in other popular languages like c/c++, Javascript, PHP and Ruby. 
-            <br>It was developed by the Eclipse Foundation released in 2001. 
-            <br> At its base Eclipse supports an incremental compiler, only recompiling portions of the program that have been modified instead of recompiling the whole thing. It also includes a model of the program contents, allowing for detailed information to be viewed. Eclipse also boasts several other tools to assist in charting, reporting, and testing.
-            <br>Eclipse is open source, thanks to which has a large marketplace of extensions and plugins to meet your needs whether it be a code checker or simple skin for you editor shell. It supports Windows, Linux, and the Mac OS X.</p>
-            <h4>Basic Info:</h4>
-            <p>Pricing: Free 
-            <p>Type: Integrated Development Environment</p>
-            <p>Sectors: Software Development, IT, Web Development</p>
-            <p>Mobile: No </p>
           
         <h2 id="slack">Slack</h2>
 
@@ -55,7 +44,7 @@
             <a href="http://slack.com">Slack.com</a>
 
             <div class="row">
-            <div class="column3">
+            <div class="column2">
               <img src="images/Slack Desktop.PNG" alt="Slack Desktop" />
               <figcaption>Slack Desktop image courtesy of Adebola</figcaption>
            </div>
@@ -129,7 +118,6 @@
             <p>Pages are easy to build out, and have a wide array of formatting options. Also, Confluence offers a plethora of template options to get page created started easily.  Versioning history is also included and specific details of changes made and by whom allow for git-like comparisons. Searching through workspaces is easy with full-text searching or by Page title. Team members can leave comments on pages, and editing permissions can be customized.</p>
 
             <p>Creating real-time dashboards to track project progress is easy to setup, and developers can update their work on interactive Scrum and Kanban boards. Project managers and team leaders can get information at a glance, creating project plans and milestones. </p> 
-            <a href="http://lightmanyfires.com/dont-repeat-yourself-confluence-include-page-macro/">Lightmanyfires.com</a>
 
             <figure>
             <img class="solo" src="images/confluenceReportSample.jpg" alt="Confluence Report image" />
@@ -176,9 +164,60 @@
      <img class="tablet" src="images/tablet.jpg" alt="Tablet Image" />
        
      <img class="phone" src="images/phone.jpg" alt="Phone Image" /> -->
+       <h2 id = "eclipse">Eclipse</h2>
+       <p>Eclipse is an IDE developed and mainly based in Java, but can be used to develop in other popular languages like c/c++, Javascript, PHP and Ruby. It was developed by the Eclipse Foundation released in 2001. </p>
        
-     
-     
+       <figure>
+       <img class = "solo" src= "images/eclipse.png" alt= "eclipse workspace">
+       <figcaption>Eclipse workspace image courtesy of the Eclipse Foundation</figcaption>
+       </figure>
+       
+       <p>At its base Eclipse supports an incremental compiler, only recompiling portions of the program that have been modified instead of recompiling the whole thing. It also includes a model of the program contents, allowing for detailed information to be viewed. Eclipse also boasts several other tools to assist in charting, reporting, and testing.</p>
+       
+       <p>Eclipse is open source, thanks to which has a large marketplace of extensions and plugins to meet your needs whether it be a code checker or simple skin for you editor shell. It supports Windows, Linux, and the Mac OS X.</p>
+       
+       <h3>Basic Info:</h3>
+           <ul>
+            <li>Pricing: Free</li>
+
+               <li>Type: Integrated Development Environment</li>
+
+               <li>Sectors: Software Development, IT, Web Development</li>
+
+               <li>Mobile: No</li>
+           </ul>
+     <a href="https://www.eclipse.org/">Eclipse Homepage</a>
+       <h2 id = "microsoftvisual">Microsoft Visual Studio</h2>
+       <p>Microsoft Visual Studio is an IDE by Microsoft released in 2003. It has several built in languages including C/C++/C#, Javascript, HTML and CSS. Visual Studio also supports other languages like Python, Ruby and Node.js via plugins. </p>
+       <figure>
+       <img class = "solo" src= "images/visual_studio.png" alt= "visual studio workspace">
+       <figcaption>Visual Studio Workspace image courtesy of Microsoft</figcaption>
+       </figure>
+       <p>Features in Visual Studio include IntelliSense, which is a tool that provides code suggestions if you get stuck on your project. CodeLens lets you see referential data on your code to help track changes made, the impact of changes made, and who made those changes as well as whether those changes have been tested. Visual Studio lets you pause code mid-execution to help identify and fix any bugs, as well as let you test your fixes/changes immediately mid typing. </p>
+       
+       <p>Visual Studio has several add-on integrations with other applications and resources such as Microsoft’s Azure and Github, letting you easily communicate and collaborate with team members. There are also several pre-packaged component bundles available that were made for specific tasks like web development or mobile/gaming development. </p>
+       
+       <h3>Basic Info:</h3>
+           <ul>
+               <li>Pricing: </li>
+               
+               <li>Community Edition - Free</li>
+               
+               <li>Professional Edition lite - $45 monthly</li>
+               
+               <li>Professional Edition full - $1199 Yearly / $799 renewal</li>
+               
+               <li>Enterprise Edition lite - $250 monthly</li>
+               
+               <li>Enterprise Edition full - $5999 Yearly / $2569 renewal</li>
+               
+               <li>Type: Integrated Development Environment</li>
+
+               <li>Sectors: Software Development, IT, Web Development</li>
+
+               <li>Mobile: No</li>
+           </ul>
+     <a href="https://visualstudio.microsoft.com/">Microsoft Visual Studio Homepage</a>
     <footer>
       <p> All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></p>
     </footer> 
