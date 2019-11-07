@@ -9,15 +9,23 @@ html {
 div.wrapper {
     background-color:#fff;
     overflow:auto;
+    padding-top:150px;
 }
 
+header{
+    background-color:dodgerblue;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
 p {
     margin-left:1em;
 }
 
 h1 {
     margin-left:1em;
-    
+    text-align: center;
     
 }
 title,h2,h3,h4,li {
@@ -50,7 +58,7 @@ img {
 }
 
 .solo {
-    width: 60%;
+    max-height: 400px;
     display:block;
 }
 
@@ -119,7 +127,7 @@ footer {
 
 /* START TABLET - RESPONSIVE RULES */
 
-@media all and (min-width:501px) and (max-width:1399px) {
+@media all and (max-width:1024px) {
 
     div.wrapper {
         width: 90%;
@@ -135,8 +143,12 @@ footer {
     img.desktop, img.phone {
         display: none;
     }
-    
-    
+    .row{
+        flex-wrap: wrap;
+    }
+    .column2, column3{
+        flex: 100%;
+    }
 }
 
 /* END TABLET - RESPONSIVE RULES */
@@ -145,7 +157,7 @@ footer {
 
 /* START PHONE - RESPONSIVE RULES */
 
-@media all and (max-width:500px) {
+@media all and (max-width:768px) {
     
     div.wrapper {
         width:100%;
